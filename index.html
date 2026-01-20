@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Assignment#02</title>
 </head>
 <body class="bg-[#1A0B2E] text-white">
@@ -18,27 +19,31 @@
         <li><a href="">Episodes</a></li>
         <li><a href="">Host</a></li>
       </ul>
-      <button class="mx-48 rounded-3xl px-4 py-3 bg-radial-[at_50%_75%] from-sky-300 via-blue-400 to-indigo-900 to-90%">Subscribe</button>
+      <button class="mx-48 rounded-3xl px-4 py-3 bg-radial-[at_50%_75%] from-sky-300 via-blue-400 to-indigo-900 to-90%">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
     </nav>
     <section class="text-white px-96 py-28 text-center justify-items-center bg-[url(/assets/hero-bg.png)] h-[760px]">
       <div>
-        <div><button class="text-black bg-green-500 px-4 py-2 rounded-2xl ml-72 mt-10">NEW</button></div>
-        <img src="./assets/microphone.png" alt="" class="bg-[url(/assets/hero-circle.png)] bg-no-repeat">
+        <button class="text-black bg-green-500 px-4 py-2 rounded-2xl ml-72
+           ">NEW</button>
+        <div class="bg-[url(/assets/hero-circle.png)] h-[350px] w-[350px] ml-20 pb-48">
+          <img src="./assets/microphone.png" alt="" class="h-[280px] ml-[107px] pt-20">
+        </div>
+        
         
       </div>
-      <div>
-        <h2 class="text-5xl font-bold mt-11">TechWave</h2>
+      <div class="mt-[40px] ml-20">
+        <h2 class="text-5xl font-bold">TechWave</h2>
         <p class="text-sm mt-2">Your daily dose of tech insights, productivity hacks, and personal growth</p>
         <div class="mt-6">
-        <button class="px-5 py-3 rounded-4xl  bg-radial-[at_50%_75%] from-sky-300 via-blue-400 to-indigo-900 to-90%">Listen On Spotify</button>
-        <button class=" border-2 border-green-600 px-5 py-3 text-green-600 rounded-4xl bg-transparent">Subscribe</button>
+        <button class="px-5 py-3 rounded-4xl  bg-radial-[at_50%_75%] from-sky-300 via-blue-400 to-indigo-900 to-90%"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
+        <button class=" border-2 border-green-600 px-5 py-3 text-green-600 rounded-4xl bg-transparent"><i class="fa-regular fa-envelope"></i> Subscribe</button>
         </div>
       </div>
     </section>
   </header>
   <main>
     <section>
-      <div class="text-white text-center">
+      <div class="text-white text-center ml-20 mt-24">
         <h2 class="font-bold text-4xl">About the Podcast</h2>
         <p class="mt-4 mx-52 gap-y-2 text-xs">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.<br><br>
         We break down complex topics into digestible insights, explore productivity strategies that actually work,<br><br>
@@ -60,7 +65,7 @@
           <p>EPISODES PUBLISHED</p>
         </div>
         <div>
-          <h3 class="text-5xl text-green-400 font-extrabold">4.9</h3>
+          <h3 class="text-5xl text-green-400 font-extrabold">4.9*</h3>
           <p>AVERAGE RATING</p>
         </div>
         <div>
@@ -75,23 +80,23 @@
       </div>
       <div class="px-48 text-white grid grid-cols-3 grid-rows-3 gap-4">
         <div class="px-10 py-28 row-span-2 border-2 bg-[#2a1149] border-transparent rounded-2xl">
-          <h2 class="font-bold text-xl mb-4">Premium Audio Quality</h2>
+          <h2 class="font-bold text-xl mb-4"><img src="./assets/headphone.png" alt="" class="mb-4">Premium Audio Quality</h2>
           <p class="text-xs">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
         </div>
         <div class=" px-10 py-10 col-span-2 border-2 bg-[#2a1149] border-transparent rounded-2xl">
-          <h2 class="font-bold text-xl mb-4">Mobile Friendly</h2>
+          <h2 class="font-bold text-xl mb-4"><img src="./assets/device.png" alt="" class="mb-4">Mobile Friendly</h2>
           <p class="text-xs">Listen on the go with seamless mobile experience and offline downloads.</p>
         </div>
         <div class="px-10 py-10 col-span-2 border-2 bg-[#2a1149] border-transparent rounded-2xl">
-          <h2 class="font-bold text-xl mb-4">Global Community</h2>
+          <h2 class="font-bold text-xl mb-4"><img src="./assets/location.png" alt="" class="mb-4">Global Community</h2>
           <p class="text-xs">Connect with tech enthusiasts from over 120 countries worldwide.</p>
         </div>
         <div class="px-10 py-10 col-span-2 border-2 bg-[#2a1149] border-transparent rounded-2xl">
-          <h2 class="font-bold text-xl mb-4">Exclusive Interviews</h2>
+          <h2 class="font-bold text-xl mb-4"><img src="./assets/interview.png" alt="" class="mb-4">Exclusive Interviews</h2>
           <p class="text-xs">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
         </div>
         <div class="px-10 py-10 border-2 bg-[#2a1149] border-transparent rounded-2xl">
-          <h2 class="font-bold text-xl mb-4">Rich Resources</h2>
+          <h2 class="font-bold text-xl mb-4"><img src="./assets/resource.png" alt="" class="mb-4">Rich Resources</h2>
           <p class="text-xs">Access show notes, transcripts, and additional learning materials for every episode.</p>
         </div>
       </div>
@@ -127,6 +132,13 @@
           <div>
             <h2 class="text-3xl font-bold mt-12 mb-4">Alex Kumar</h2>
             <p class="text-sm mr-10 text-sm/7">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+            <div class="flex gap-4 items-center mt-4 ">
+            <a href="" class="border-2 border-gray-500 rounded-full p-2.5"><img src="./assets/linkedin.png" alt="" ></a>
+            <a href="" class="border-2 border-gray-500 rounded-full p-2.5"><img src="./assets/x.png" alt=""></a>
+            <a href="" class="border-2 border-gray-500 rounded-full p-2.5"><img src="./assets/instagram.png" alt=""></a>
+            <a href="" class="border-2 border-gray-500 rounded-full p-2.5"><img src="./assets/youtube.png" alt=""></a>
+            </div>
+            
           </div>
         </div>
       </div>
